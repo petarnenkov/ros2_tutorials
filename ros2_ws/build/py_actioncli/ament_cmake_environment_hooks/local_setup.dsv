@@ -1,0 +1,4 @@
+source;share/py_actioncli/environment/ament_prefix_path.sh
+source;share/py_actioncli/environment/library_path.sh
+source;share/py_actioncli/environment/path.sh
+source;share/py_actioncli/environment/pythonpath.sh

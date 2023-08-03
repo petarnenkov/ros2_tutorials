@@ -1,0 +1,11 @@
+source;share/py_action_int/hook/cmake_prefix_path.ps1
+source;share/py_action_int/hook/cmake_prefix_path.dsv
+source;share/py_action_int/hook/cmake_prefix_path.sh
+source;share/py_action_int/hook/ld_library_path_lib.ps1
+source;share/py_action_int/hook/ld_library_path_lib.dsv
+source;share/py_action_int/hook/ld_library_path_lib.sh
+source;share/py_action_int/local_setup.bash
+source;share/py_action_int/local_setup.dsv
+source;share/py_action_int/local_setup.ps1
+source;share/py_action_int/local_setup.sh
+source;share/py_action_int/local_setup.zsh

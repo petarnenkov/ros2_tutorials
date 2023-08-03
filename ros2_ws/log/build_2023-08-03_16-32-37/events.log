@@ -1,0 +1,352 @@
+[0.000000] (-) TimerEvent: {}
+[0.003696] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.003925] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003968] (py_actioncli) JobQueued: {'identifier': 'py_actioncli', 'dependencies': OrderedDict()}
+[0.003996] (py_actioncli) JobStarted: {'identifier': 'py_actioncli'}
+[0.044972] (py_actioncli) JobProgress: {'identifier': 'py_actioncli', 'progress': 'cmake'}
+[0.046067] (py_actioncli) Command: {'cmd': ['/usr/bin/cmake', '/home/user/ros2_workspaces/ros2_ws/src/py_actioncli', '-DCMAKE_INSTALL_PREFIX=/home/user/ros2_workspaces/ros2_ws/install/py_actioncli'], 'cwd': '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_workspaces/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '839'), ('SYSTEMD_EXEC_PID', '996'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2966'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:21753'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-VirtualBox:@/tmp/.ICE-unix/970,unix/user-VirtualBox:/tmp/.ICE-unix/970'), ('INVOCATION_ID', '51634866bc334218853892bce6fc9c05'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HRKW81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:295694f5-17af-484c-8202-602ba94b2c96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100412] (-) TimerEvent: {}
+[0.167048] (py_actioncli) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.201044] (-) TimerEvent: {}
+[0.262997] (py_actioncli) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.275872] (py_actioncli) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.302068] (-) TimerEvent: {}
+[0.402830] (-) TimerEvent: {}
+[0.417035] (py_actioncli) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.429354] (py_actioncli) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.429560] (py_actioncli) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.429636] (py_actioncli) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.433590] (py_actioncli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.507335] (-) TimerEvent: {}
+[0.610735] (-) TimerEvent: {}
+[0.625449] (py_actioncli) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.634867] (py_actioncli) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.635659] (py_actioncli) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.637266] (py_actioncli) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.641398] (py_actioncli) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.712548] (-) TimerEvent: {}
+[0.813145] (-) TimerEvent: {}
+[0.894882] (py_actioncli) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.913657] (-) TimerEvent: {}
+[1.014770] (py_actioncli) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.015386] (-) TimerEvent: {}
+[1.117237] (-) TimerEvent: {}
+[1.128306] (py_actioncli) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.131120] (py_actioncli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.139262] (py_actioncli) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.202418] (py_actioncli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.218222] (-) TimerEvent: {}
+[1.321865] (-) TimerEvent: {}
+[1.431348] (-) TimerEvent: {}
+[1.533444] (-) TimerEvent: {}
+[1.634971] (-) TimerEvent: {}
+[1.736916] (-) TimerEvent: {}
+[1.811995] (py_actioncli) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.837828] (-) TimerEvent: {}
+[1.940308] (-) TimerEvent: {}
+[2.042104] (-) TimerEvent: {}
+[2.142553] (-) TimerEvent: {}
+[2.161687] (py_actioncli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.247363] (-) TimerEvent: {}
+[2.348308] (-) TimerEvent: {}
+[2.449348] (-) TimerEvent: {}
+[2.552798] (-) TimerEvent: {}
+[2.578334] (py_actioncli) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.634435] (py_actioncli) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.641572] (py_actioncli) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.654965] (-) TimerEvent: {}
+[2.681525] (py_actioncli) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.682173] (py_actioncli) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.682615] (py_actioncli) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.683039] (py_actioncli) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.721780] (py_actioncli) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.756656] (-) TimerEvent: {}
+[2.827799] (py_actioncli) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.831605] (py_actioncli) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.850429] (py_actioncli) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.857682] (-) TimerEvent: {}
+[2.915130] (py_actioncli) StdoutLine: {'line': b'-- Generating done\n'}
+[2.915372] (py_actioncli) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_workspaces/ros2_ws/build/py_actioncli\n'}
+[2.939337] (py_actioncli) CommandEnded: {'returncode': 0}
+[2.939829] (py_actioncli) JobProgress: {'identifier': 'py_actioncli', 'progress': 'build'}
+[2.939860] (py_actioncli) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli', '--', '-j3', '-l3'], 'cwd': '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_workspaces/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '839'), ('SYSTEMD_EXEC_PID', '996'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2966'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:21753'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-VirtualBox:@/tmp/.ICE-unix/970,unix/user-VirtualBox:/tmp/.ICE-unix/970'), ('INVOCATION_ID', '51634866bc334218853892bce6fc9c05'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HRKW81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:295694f5-17af-484c-8202-602ba94b2c96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.957872] (-) TimerEvent: {}
+[3.034974] (py_actioncli) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.046944] (py_actioncli) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.069633] (-) TimerEvent: {}
+[3.071503] (py_actioncli) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_py_actioncli\n'}
+[3.249684] (-) TimerEvent: {}
+[3.352578] (-) TimerEvent: {}
+[3.459965] (-) TimerEvent: {}
+[3.563187] (-) TimerEvent: {}
+[3.633216] (py_actioncli) StdoutLine: {'line': b'running egg_info\n'}
+[3.634377] (py_actioncli) StdoutLine: {'line': b'creating py_actioncli.egg-info\n'}
+[3.635016] (py_actioncli) StdoutLine: {'line': b'writing py_actioncli.egg-info/PKG-INFO\n'}
+[3.635843] (py_actioncli) StdoutLine: {'line': b'writing dependency_links to py_actioncli.egg-info/dependency_links.txt\n'}
+[3.639251] (py_actioncli) StdoutLine: {'line': b'writing top-level names to py_actioncli.egg-info/top_level.txt\n'}
+[3.640013] (py_actioncli) StdoutLine: {'line': b"writing manifest file 'py_actioncli.egg-info/SOURCES.txt'\n"}
+[3.642343] (py_actioncli) StdoutLine: {'line': b"reading manifest file 'py_actioncli.egg-info/SOURCES.txt'\n"}
+[3.643046] (py_actioncli) StdoutLine: {'line': b"writing manifest file 'py_actioncli.egg-info/SOURCES.txt'\n"}
+[3.683113] (py_actioncli) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_py_actioncli_egg\n'}
+[3.683601] (-) TimerEvent: {}
+[3.784508] (-) TimerEvent: {}
+[3.885464] (-) TimerEvent: {}
+[3.900321] (py_actioncli) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/py_actioncli__rosidl_generator_c.dir/rosidl_generator_c/py_actioncli/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[3.922613] (py_actioncli) StdoutLine: {'line': b'[  9%] Built target py_actioncli__cpp\n'}
+[4.007311] (py_actioncli) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.008563] (-) TimerEvent: {}
+[4.012366] (py_actioncli) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.113085] (-) TimerEvent: {}
+[4.221169] (-) TimerEvent: {}
+[4.323177] (-) TimerEvent: {}
+[4.440464] (-) TimerEvent: {}
+[4.492088] (py_actioncli) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libpy_actioncli__rosidl_generator_c.so\x1b[0m\n'}
+[4.547846] (-) TimerEvent: {}
+[4.650721] (-) TimerEvent: {}
+[4.662058] (py_actioncli) StdoutLine: {'line': b'[ 19%] Built target py_actioncli__rosidl_generator_c\n'}
+[4.810257] (py_actioncli) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.810467] (-) TimerEvent: {}
+[4.915907] (-) TimerEvent: {}
+[4.951022] (py_actioncli) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/py_actioncli__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/py_actioncli/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[4.991025] (py_actioncli) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/py_actioncli__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/py_actioncli/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.022646] (-) TimerEvent: {}
+[5.123845] (-) TimerEvent: {}
+[5.224173] (-) TimerEvent: {}
+[5.324675] (-) TimerEvent: {}
+[5.425856] (-) TimerEvent: {}
+[5.536773] (-) TimerEvent: {}
+[5.639155] (-) TimerEvent: {}
+[5.777771] (-) TimerEvent: {}
+[5.883675] (-) TimerEvent: {}
+[5.966369] (py_actioncli) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/py_actioncli__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/py_actioncli/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[5.985494] (-) TimerEvent: {}
+[6.163590] (-) TimerEvent: {}
+[6.265211] (-) TimerEvent: {}
+[6.381906] (-) TimerEvent: {}
+[6.483429] (-) TimerEvent: {}
+[6.577786] (py_actioncli) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libpy_actioncli__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.583724] (-) TimerEvent: {}
+[6.698094] (-) TimerEvent: {}
+[6.800312] (py_actioncli) StdoutLine: {'line': b'[ 35%] Built target py_actioncli__rosidl_typesupport_cpp\n'}
+[6.800602] (-) TimerEvent: {}
+[6.821997] (py_actioncli) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libpy_actioncli__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.853706] (py_actioncli) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.938229] (-) TimerEvent: {}
+[7.078440] (-) TimerEvent: {}
+[7.181343] (-) TimerEvent: {}
+[7.197869] (py_actioncli) StdoutLine: {'line': b'[ 41%] Built target py_actioncli__rosidl_typesupport_fastrtps_cpp\n'}
+[7.233302] (py_actioncli) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.282815] (-) TimerEvent: {}
+[7.406184] (-) TimerEvent: {}
+[7.498149] (py_actioncli) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/py_actioncli__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/py_actioncli/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[7.506628] (-) TimerEvent: {}
+[7.610510] (-) TimerEvent: {}
+[7.712241] (-) TimerEvent: {}
+[7.729410] (py_actioncli) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libpy_actioncli__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.813020] (-) TimerEvent: {}
+[7.927004] (-) TimerEvent: {}
+[7.999027] (py_actioncli) StdoutLine: {'line': b'[ 51%] Built target py_actioncli__rosidl_typesupport_introspection_cpp\n'}
+[8.029483] (-) TimerEvent: {}
+[8.048958] (py_actioncli) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.077257] (py_actioncli) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/py_actioncli__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/py_actioncli/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[8.137153] (-) TimerEvent: {}
+[8.287562] (-) TimerEvent: {}
+[8.376193] (py_actioncli) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libpy_actioncli__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.388064] (-) TimerEvent: {}
+[8.489172] (-) TimerEvent: {}
+[8.504573] (py_actioncli) StdoutLine: {'line': b'[ 61%] Built target py_actioncli__rosidl_typesupport_introspection_c\n'}
+[8.517238] (py_actioncli) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libpy_actioncli__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[8.614377] (-) TimerEvent: {}
+[8.695670] (py_actioncli) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/py_actioncli__rosidl_typesupport_c.dir/rosidl_typesupport_c/py_actioncli/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[8.709047] (py_actioncli) StdoutLine: {'line': b'[ 67%] Built target py_actioncli__rosidl_typesupport_fastrtps_c\n'}
+[8.718971] (-) TimerEvent: {}
+[8.796013] (py_actioncli) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libpy_actioncli__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.820827] (-) TimerEvent: {}
+[8.878986] (py_actioncli) StdoutLine: {'line': b'[ 70%] Built target py_actioncli__rosidl_typesupport_c\n'}
+[8.922682] (-) TimerEvent: {}
+[8.958603] (py_actioncli) StdoutLine: {'line': b'[ 70%] Built target py_actioncli\n'}
+[9.012273] (py_actioncli) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.032695] (-) TimerEvent: {}
+[9.177615] (-) TimerEvent: {}
+[9.280038] (-) TimerEvent: {}
+[9.417043] (-) TimerEvent: {}
+[9.539620] (-) TimerEvent: {}
+[9.655663] (-) TimerEvent: {}
+[9.772004] (-) TimerEvent: {}
+[9.873310] (-) TimerEvent: {}
+[9.988266] (-) TimerEvent: {}
+[10.098037] (-) TimerEvent: {}
+[10.141917] (py_actioncli) StdoutLine: {'line': b'[ 74%] Built target py_actioncli__py\n'}
+[10.198635] (-) TimerEvent: {}
+[10.200109] (py_actioncli) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/py_actioncli__rosidl_generator_py.dir/rosidl_generator_py/py_actioncli/action/_fibonacci_s.c.o\x1b[0m\n'}
+[10.300007] (-) TimerEvent: {}
+[10.401775] (-) TimerEvent: {}
+[10.502293] (-) TimerEvent: {}
+[10.581116] (py_actioncli) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/py_actioncli/libpy_actioncli__rosidl_generator_py.so\x1b[0m\n'}
+[10.605377] (-) TimerEvent: {}
+[10.676048] (py_actioncli) StdoutLine: {'line': b'[ 80%] Built target py_actioncli__rosidl_generator_py\n'}
+[10.706807] (-) TimerEvent: {}
+[10.754562] (py_actioncli) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/py_actioncli__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/py_actioncli/_py_actioncli_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.776202] (py_actioncli) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/py_actioncli__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/py_actioncli/_py_actioncli_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.791716] (py_actioncli) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/py_actioncli__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/py_actioncli/_py_actioncli_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.813498] (-) TimerEvent: {}
+[10.920334] (-) TimerEvent: {}
+[11.032748] (-) TimerEvent: {}
+[11.085413] (py_actioncli) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/py_actioncli/py_actioncli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.087209] (py_actioncli) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/py_actioncli/py_actioncli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.134251] (-) TimerEvent: {}
+[11.223109] (py_actioncli) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/py_actioncli/py_actioncli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.241599] (-) TimerEvent: {}
+[11.321636] (py_actioncli) StdoutLine: {'line': b'[100%] Built target py_actioncli__rosidl_typesupport_introspection_c__pyext\n'}
+[11.330793] (py_actioncli) StdoutLine: {'line': b'[100%] Built target py_actioncli__rosidl_typesupport_c__pyext\n'}
+[11.344049] (py_actioncli) StdoutLine: {'line': b'[100%] Built target py_actioncli__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.344327] (-) TimerEvent: {}
+[11.379987] (py_actioncli) CommandEnded: {'returncode': 0}
+[11.446759] (-) TimerEvent: {}
+[11.547453] (-) TimerEvent: {}
+[11.647996] (-) TimerEvent: {}
+[11.747304] (py_actioncli) JobProgress: {'identifier': 'py_actioncli', 'progress': 'install'}
+[11.748374] (-) TimerEvent: {}
+[11.765127] (py_actioncli) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli'], 'cwd': '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'user'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/user'), ('OLDPWD', '/home/user/ros2_workspaces/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('MANAGERPID', '839'), ('SYSTEMD_EXEC_PID', '996'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2966'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'user'), ('JOURNAL_STREAM', '8:21753'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'user'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/user-VirtualBox:@/tmp/.ICE-unix/970,unix/user-VirtualBox:/tmp/.ICE-unix/970'), ('INVOCATION_ID', '51634866bc334218853892bce6fc9c05'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.HRKW81'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:295694f5-17af-484c-8202-602ba94b2c96'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.781755] (py_actioncli) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.787392] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/ament_index/resource_index/rosidl_interfaces/py_actioncli\n'}
+[11.787580] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli\n'}
+[11.787658] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg\n'}
+[11.787726] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.787792] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action\n'}
+[11.787856] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/fibonacci.h\n'}
+[11.787919] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail\n'}
+[11.787982] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__functions.h\n'}
+[11.788066] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__functions.c\n'}
+[11.795183] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__type_support.h\n'}
+[11.795444] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__struct.h\n'}
+[11.801091] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/library_path.sh\n'}
+[11.801291] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/library_path.dsv\n'}
+[11.801368] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_generator_c.so\n'}
+[11.801459] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_generator_c.so" to ""\n'}
+[11.801546] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli\n'}
+[11.801694] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg\n'}
+[11.801782] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.801848] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action\n'}
+[11.802002] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail\n'}
+[11.802330] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[11.802447] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_fastrtps_c.so\n'}
+[11.802639] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.802809] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli\n'}
+[11.802961] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg\n'}
+[11.803028] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.803181] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action\n'}
+[11.803255] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail\n'}
+[11.803323] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[11.803404] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__type_support.c\n'}
+[11.803568] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_introspection_c.so\n'}
+[11.803721] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.803788] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_c.so\n'}
+[11.803939] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_c.so" to ""\n'}
+[11.804023] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli\n'}
+[11.804172] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action\n'}
+[11.804404] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail\n'}
+[11.805283] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__traits.hpp\n'}
+[11.807923] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__builder.hpp\n'}
+[11.808045] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__struct.hpp\n'}
+[11.808116] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/fibonacci.hpp\n'}
+[11.808227] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli\n'}
+[11.808298] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg\n'}
+[11.808362] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.808432] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action\n'}
+[11.808495] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail\n'}
+[11.808558] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/dds_fastrtps\n'}
+[11.808622] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.808685] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.808748] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.808811] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli\n'}
+[11.808915] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action\n'}
+[11.808995] (py_actioncli) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail\n'}
+[11.809062] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.809127] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/include/py_actioncli/py_actioncli/action/detail/fibonacci__type_support.cpp\n'}
+[11.809191] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_introspection_cpp.so\n'}
+[11.809263] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.809326] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_cpp.so\n'}
+[11.809389] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_typesupport_cpp.so" to ""\n'}
+[11.809450] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/pythonpath.sh\n'}
+[11.809516] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/pythonpath.dsv\n'}
+[11.809578] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli-0.0.0-py3.10.egg-info\n'}
+[11.809640] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[11.809702] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[11.809763] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[11.809863] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[11.809944] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli\n'}
+[11.810009] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.810455] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/_py_actioncli_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.811511] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/_py_actioncli_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.812473] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/_py_actioncli_s.ep.rosidl_typesupport_c.c\n'}
+[11.812587] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.812676] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/__init__.py\n'}
+[11.812746] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action\n'}
+[11.812844] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action/__init__.py\n'}
+[11.812911] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action/_fibonacci.py\n'}
+[11.812986] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action/_fibonacci_s.c\n'}
+[11.813073] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.813146] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/libpy_actioncli__rosidl_generator_py.so\n'}
+[11.848560] (-) TimerEvent: {}
+[11.902046] (py_actioncli) StdoutLine: {'line': b"Listing '/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli'...\n"}
+[11.904113] (py_actioncli) StdoutLine: {'line': b"Compiling '/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/__init__.py'...\n"}
+[11.904208] (py_actioncli) StdoutLine: {'line': b"Listing '/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action'...\n"}
+[11.904280] (py_actioncli) StdoutLine: {'line': b"Compiling '/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action/__init__.py'...\n"}
+[11.904348] (py_actioncli) StdoutLine: {'line': b"Compiling '/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/action/_fibonacci.py'...\n"}
+[11.917004] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.917453] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.917756] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.918099] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.918212] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.918617] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/local/lib/python3.10/dist-packages/py_actioncli/py_actioncli_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.918706] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_generator_py.so\n'}
+[11.918980] (py_actioncli) StdoutLine: {'line': b'-- Set runtime path of "/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/libpy_actioncli__rosidl_generator_py.so" to ""\n'}
+[11.919462] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/action/Fibonacci.idl\n'}
+[11.919570] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/action/Fibonacci.action\n'}
+[11.919643] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/ament_index/resource_index/package_run_dependencies/py_actioncli\n'}
+[11.919823] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/ament_index/resource_index/parent_prefix_path/py_actioncli\n'}
+[11.929152] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/ament_prefix_path.sh\n'}
+[11.929343] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/ament_prefix_path.dsv\n'}
+[11.929664] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/path.sh\n'}
+[11.929829] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/environment/path.dsv\n'}
+[11.929904] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/local_setup.bash\n'}
+[11.929971] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/local_setup.sh\n'}
+[11.935671] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/local_setup.zsh\n'}
+[11.935855] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/local_setup.dsv\n'}
+[11.936652] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/package.dsv\n'}
+[11.937082] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/ament_index/resource_index/packages/py_actioncli\n'}
+[11.937166] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_generator_cExport.cmake\n'}
+[11.937234] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.937298] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.937813] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.938105] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.938327] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.938506] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_cExport.cmake\n'}
+[11.938722] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.939247] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_generator_cppExport.cmake\n'}
+[11.939821] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.940850] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.941065] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.941430] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.941529] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_cppExport.cmake\n'}
+[11.941599] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncli__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.941664] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_generator_pyExport.cmake\n'}
+[11.941728] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/export_py_actioncli__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.941790] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/rosidl_cmake-extras.cmake\n'}
+[11.941852] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.941933] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.941996] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.942058] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.942119] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.942182] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.942251] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncliConfig.cmake\n'}
+[11.942314] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/cmake/py_actioncliConfig-version.cmake\n'}
+[11.942378] (py_actioncli) StdoutLine: {'line': b'-- Installing: /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/share/py_actioncli/package.xml\n'}
+[11.955429] (py_actioncli) CommandEnded: {'returncode': 0}
+[11.956045] (-) TimerEvent: {}
+[12.057010] (-) TimerEvent: {}
+[12.157672] (-) TimerEvent: {}
+[12.259505] (-) TimerEvent: {}
+[12.261369] (py_actioncli) JobEnded: {'identifier': 'py_actioncli', 'rc': 0}
+[12.263586] (-) EventReactorShutdown: {}

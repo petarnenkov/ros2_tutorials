@@ -1,0 +1,36 @@
+[0.915s] Invoking command in '/home/user/ros2_workspaces/ros2_ws/src/py_actioncli': PYTHONPATH=/home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/prefix_override:/home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_actioncli build --build-base /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build install --record /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/install.log --single-version-externally-managed
+[1.253s] running egg_info
+[1.254s] creating ../build/py_actioncli/py_actioncli.egg-info
+[1.256s] writing ../build/py_actioncli/py_actioncli.egg-info/PKG-INFO
+[1.256s] writing dependency_links to ../build/py_actioncli/py_actioncli.egg-info/dependency_links.txt
+[1.257s] writing entry points to ../build/py_actioncli/py_actioncli.egg-info/entry_points.txt
+[1.257s] writing requirements to ../build/py_actioncli/py_actioncli.egg-info/requires.txt
+[1.257s] writing top-level names to ../build/py_actioncli/py_actioncli.egg-info/top_level.txt
+[1.258s] writing manifest file '../build/py_actioncli/py_actioncli.egg-info/SOURCES.txt'
+[1.278s] reading manifest file '../build/py_actioncli/py_actioncli.egg-info/SOURCES.txt'
+[1.279s] writing manifest file '../build/py_actioncli/py_actioncli.egg-info/SOURCES.txt'
+[1.279s] running build
+[1.279s] running build_py
+[1.279s] creating /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build
+[1.279s] creating /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build/lib
+[1.279s] creating /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build/lib/py_actioncli
+[1.285s] copying py_actioncli/__init__.py -> /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build/lib/py_actioncli
+[1.285s] copying py_actioncli/fibonacci_action_server.py -> /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build/lib/py_actioncli
+[1.286s] running install
+[1.286s] running install_lib
+[1.286s] creating /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages/py_actioncli
+[1.286s] copying /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build/lib/py_actioncli/__init__.py -> /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages/py_actioncli
+[1.286s] copying /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build/lib/py_actioncli/fibonacci_action_server.py -> /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages/py_actioncli
+[1.288s] byte-compiling /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages/py_actioncli/__init__.py to __init__.cpython-310.pyc
+[1.288s] byte-compiling /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages/py_actioncli/fibonacci_action_server.py to fibonacci_action_server.cpython-310.pyc
+[1.288s] running install_data
+[1.289s] creating /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/share/ament_index
+[1.290s] creating /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/share/ament_index/resource_index
+[1.290s] creating /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/share/ament_index/resource_index/packages
+[1.290s] copying resource/py_actioncli -> /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/share/ament_index/resource_index/packages
+[1.290s] copying package.xml -> /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/share/py_actioncli
+[1.291s] running install_egg_info
+[1.293s] Copying ../build/py_actioncli/py_actioncli.egg-info to /home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages/py_actioncli-0.0.0-py3.10.egg-info
+[1.293s] running install_scripts
+[1.318s] writing list of installed files to '/home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/install.log'
+[1.375s] Invoked command in '/home/user/ros2_workspaces/ros2_ws/src/py_actioncli' returned '0': PYTHONPATH=/home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/prefix_override:/home/user/ros2_workspaces/ros2_ws/src/install/py_actioncli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/py_actioncli build --build-base /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/build install --record /home/user/ros2_workspaces/ros2_ws/src/build/py_actioncli/install.log --single-version-externally-managed

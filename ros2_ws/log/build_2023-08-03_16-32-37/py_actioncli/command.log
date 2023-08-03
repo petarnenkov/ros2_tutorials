@@ -1,0 +1,6 @@
+Invoking command in '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_workspaces/ros2_ws/src/py_actioncli -DCMAKE_INSTALL_PREFIX=/home/user/ros2_workspaces/ros2_ws/install/py_actioncli
+Invoked command in '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/user/ros2_workspaces/ros2_ws/src/py_actioncli -DCMAKE_INSTALL_PREFIX=/home/user/ros2_workspaces/ros2_ws/install/py_actioncli
+Invoking command in '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_workspaces/ros2_ws/build/py_actioncli -- -j3 -l3
+Invoked command in '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/ros2_workspaces/ros2_ws/build/py_actioncli -- -j3 -l3
+Invoking command in '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_workspaces/ros2_ws/build/py_actioncli
+Invoked command in '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/ros2_workspaces/ros2_ws/build/py_actioncli

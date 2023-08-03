@@ -1,0 +1,22 @@
+[0.983s] Invoking command in '/home/user/ros2_workspaces/ros2_ws/src/py_actioncli': PYTHONPATH=/home/user/ros2_workspaces/ros2_ws/build/py_actioncli/prefix_override:/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_actioncli build --build-base /home/user/ros2_workspaces/ros2_ws/build/py_actioncli/build install --record /home/user/ros2_workspaces/ros2_ws/build/py_actioncli/install.log --single-version-externally-managed
+[1.297s] running egg_info
+[1.297s] writing ../../build/py_actioncli/py_actioncli.egg-info/PKG-INFO
+[1.297s] writing dependency_links to ../../build/py_actioncli/py_actioncli.egg-info/dependency_links.txt
+[1.297s] writing entry points to ../../build/py_actioncli/py_actioncli.egg-info/entry_points.txt
+[1.297s] writing requirements to ../../build/py_actioncli/py_actioncli.egg-info/requires.txt
+[1.297s] writing top-level names to ../../build/py_actioncli/py_actioncli.egg-info/top_level.txt
+[1.297s] reading manifest file '../../build/py_actioncli/py_actioncli.egg-info/SOURCES.txt'
+[1.297s] writing manifest file '../../build/py_actioncli/py_actioncli.egg-info/SOURCES.txt'
+[1.297s] running build
+[1.298s] running build_py
+[1.300s] running install
+[1.303s] running install_lib
+[1.303s] running install_data
+[1.305s] running install_egg_info
+[1.307s] removing '/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/python3.10/site-packages/py_actioncli-0.0.0-py3.10.egg-info' (and everything under it)
+[1.314s] Copying ../../build/py_actioncli/py_actioncli.egg-info to /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/python3.10/site-packages/py_actioncli-0.0.0-py3.10.egg-info
+[1.315s] running install_scripts
+[1.344s] Installing client script to /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/py_actioncli
+[1.348s] Installing server script to /home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/py_actioncli
+[1.348s] writing list of installed files to '/home/user/ros2_workspaces/ros2_ws/build/py_actioncli/install.log'
+[1.409s] Invoked command in '/home/user/ros2_workspaces/ros2_ws/src/py_actioncli' returned '0': PYTHONPATH=/home/user/ros2_workspaces/ros2_ws/build/py_actioncli/prefix_override:/home/user/ros2_workspaces/ros2_ws/install/py_actioncli/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_actioncli build --build-base /home/user/ros2_workspaces/ros2_ws/build/py_actioncli/build install --record /home/user/ros2_workspaces/ros2_ws/build/py_actioncli/install.log --single-version-externally-managed

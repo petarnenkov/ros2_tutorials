@@ -1,0 +1,6 @@
+{
+  "package_name": "py_actioncli",
+  "non_idl_tuples": [
+    "/home/user/ros2_workspaces/ros2_ws/src/py_actioncli:action/Fibonacci.action"
+  ]
+}
